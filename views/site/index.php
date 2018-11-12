@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 use app\helpers\EtheriumConverter;
 
 $converter = new EtheriumConverter;
-$this->title = 'My Yii Application';
+$this->title = 'Eth Wallet Scanner';
 ?>
 <div class="site-index">
 
