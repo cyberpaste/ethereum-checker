@@ -1,0 +1,8 @@
+FROM php:7.1-fpm
+
+RUN apt-get update && apt-get install -y libmcrypt-dev mysql-client zip unzip curl mlocate \
+    && docker-php-ext-install pdo_mysql
+
+RUN curl --silent --show-error https://getcomposer.org/installer | php    
+RUN mv composer.phar /usr/bin/composer
+WORKDIR /var/www
