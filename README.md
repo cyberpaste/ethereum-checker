@@ -1,4 +1,8 @@
 
+# Ethtereum Wallet Scanner
+
+![preview](https://raw.githubusercontent.com/cyberpaste/ethereum-checker/master/preview.png)
+
 ## Install
 
 1) Install Docker https://docs.docker.com/engine/getstarted/step_one/ 
